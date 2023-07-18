@@ -38,22 +38,31 @@ const multiply: MathOperation = (num1, num2) => {
 
 //Testing de funciones
 //Suma
+console.log("Sumas:");
 console.log(calculateSum(5, 3));
 console.log(calculateSum(10, 20));
 console.log(calculateSum(0, 0));
+
 //Par o impar
+console.log("¿Es par?:");
 console.log(isEven(4));
 console.log(isEven(7));
 console.log(isEven(30));
+
 //Reversa de texto
+console.log("Textos en Reversa:");
 console.log(reverseString("Cristhian"));
 console.log(reverseString("TypeScript"));
 console.log(reverseString("IronHack"));
+
 //Promedio de matriz de numeros
+console.log("Promedio de numeros:");
 console.log(calculateAverage([1, 2, 3, 4, 5]));
 console.log(calculateAverage([]));//La colocamos vacia para probar el if 
 console.log(calculateAverage([10, 10, 10, 10, 10]));
+
 //Multiplicaciones de 2 numeros para el formato Type
+console.log("Multiplicaciones:");
 console.log(multiply(5, 3));
 console.log(multiply(10, 20));
 console.log(multiply(0, 0));
